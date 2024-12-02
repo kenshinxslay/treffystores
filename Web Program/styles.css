@@ -1,0 +1,126 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'clash display' , Arial, Helvetica, sans-serif;
+        background-color:#f5e2a5dc;
+    color:  #f5e2a5dc;
+    text-align: center;
+}
+
+/* Header Section Styling */
+header {
+    background-color: #f5e2a5dc;
+    color: #f5e2a5dc;
+    padding: 30px 20px;
+}
+
+header h1 {
+    font-size: 4em;
+    color: #000000; /* Cream */
+}
+
+header p {
+    font-size: 1.5em;
+    margin-top: 10px;
+    color: #000000f1;
+}
+
+/* About Section Styling */
+.about {
+    background-color: #eed5a7;
+    padding: 30px 20px;
+    margin-top: 30px;
+}
+
+.about h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+.about p {
+    font-size: 1.2em;
+    color: #000000;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Featured Clothing Section */
+.featured-clothing {
+    margin-top: 40px;
+}
+
+.featured-clothing h2 {
+    font-size: 0.9em;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+/* New Arrivals Section */
+.new-arrivals {
+    margin-top: 40px;
+}
+
+.new-arrivals h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+/* Product Card Styling */
+.product-card {
+    background-color: #f5eded;
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 220px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px; /* Rounded corners for the image */
+    margin-bottom: 10px;
+}
+
+.product-card p {
+    font-size: 1.1em;
+    color: #000000;
+}
+
+.product-card .price {
+    font-size: 1.2em;
+    color: #fffeff; /* Purple */
+    margin: 10px 0;
+    
+}
+
+.product-card .details {
+    font-size: 1em;
+    color: #000000;
+    margin-top: 10px;
+}
+
+/* Flexbox Layout for Product Cards */
+.featured-clothing, .new-arrivals {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* Footer Section Styling */
+footer {
+    background-color: #fdfdfd;
+    color: white;
+    padding: 10px;
+    margin-top: 40px;
+}
